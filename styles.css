@@ -80,7 +80,7 @@ body {
 
 .section__description {
     font-family: var(--Outfit);
-    font-size: 16px;
+    font-size: 15.9px;
     font-weight: 400;
     color: var(--Stone-600);
     line-height: 1.5rem;
@@ -137,7 +137,7 @@ body {
 .section-list__item {
     font-family: var(--Outfit);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14.9px;
     color: var(--Stone-600);
     line-height: 1.5rem;
 }
@@ -166,7 +166,7 @@ body {
 }
 
 .section--instructions .section-list__item::marker {
-    font-size: 16px;
+    font-size: 14.9px;
     font-weight: 600;
 }
 
@@ -177,6 +177,7 @@ body {
 /* Nutrition Section */
 
 .section--nutrition .section__description {
+    font-size: 16px;
     line-height: 1.4rem;
 }
 
@@ -188,21 +189,21 @@ body {
     line-height: 1.4rem;
 }
 
-.column {
+.table__column {
     border-bottom: 1.5px solid var(--Stone-150);
     padding: 12px 0;
 }
 
-.table__fourth-row .column {
+.table--fourth-row .table__column {
     border: none;
 }
 
-.table__first-column {
+.table--first-column {
     width: 50%;
     padding-left: 28px;
 }
 
-.table__second-column {
+.table--second-column {
     width: 50%;
     padding-left: 10px;
     color: var(--Brown-800);
